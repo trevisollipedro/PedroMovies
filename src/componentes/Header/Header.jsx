@@ -2,9 +2,8 @@ import Navbar from "../Navbar/Navbar"
 
 function Header() {
     return (
-        <header className="flex bg-primary-thompson text-white p-4 mb-4 text-xl justify-between">
-            <span>Olá, visitante</span>
-            <h1> Bem-vindo ao PedroMovies</h1>
+        <header className="flex bg-deo1 text-white p-4 text-2xl justify-between font-bold ">
+            <span>PedroMovies</span>
             <Navbar/>
         </header>
     )
